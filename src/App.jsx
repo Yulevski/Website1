@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import { BrowserRouter, Route,Switch ,Link,NavLink} from 'react-router-dom';
+// import { useState } from 'react'
+import { BrowserRouter, Route,Switch} from 'react-router-dom';
 import Mainpage from './components/Mainpage';
 import Photopage from './components/Photopage';
 import UIpage from './components/UIpage';
