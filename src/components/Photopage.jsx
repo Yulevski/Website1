@@ -10,7 +10,7 @@ function Photopage() {
     <div className="Theme-page">
 
       <div className='top-theme'>
-          <h1 className='title-photo'>Photo page</h1>
+          <h1 className='title-photo'>Photopage</h1>
           <h2 className='main-page-photo'><Link to="/">to Main</Link></h2>
 
           
