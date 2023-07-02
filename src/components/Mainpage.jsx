@@ -10,10 +10,15 @@ function Mainpage() {
     <>
     <div className="mainpage-container">      
       <h1 className='title-main'>Yu's private photos 18+</h1>
-       
-            <button className='photo-page-main'><Link className='link' to="/Photopage">Photo</Link></button>
-            <button className='ui-page-main'><Link className='link' to="/uipage">UI</Link></button>
-            <button className='app-page-main'><Link className='link' to="/apppage">app</Link></button>
+        <Link className='link' to="/Photopage">
+        <button className='photo-page-main'>Photo</button>
+        </Link>
+        <Link className='link' to="/uipage">
+        <button className='ui-page-main'>UI</button>
+        </Link>
+        <Link className='link' to="/apppage">
+        <button className='app-page-main'>app</button>
+        </Link>
       
       </div>{/* "mainpage-container" */}
 
