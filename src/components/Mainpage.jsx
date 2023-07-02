@@ -1,5 +1,6 @@
-// import React, { useState, useEffect } from 'react';
+import React from 'react';
 import {  Link } from 'react-router-dom';
+import './styles/mainpage.css';
 
 
 function Mainpage() {
@@ -7,25 +8,15 @@ function Mainpage() {
 
   return( 
     <>
-    <div className="Theme-page">
+    <div className="mainpage-container">      
+      <h1 className='title-main'>Yu's private photos 18+</h1>
+       
+            <button className='photo-page-main'><Link className='link' to="/Photopage">Photo</Link></button>
+            <button className='ui-page-main'><Link className='link' to="/uipage">UI</Link></button>
+            <button className='app-page-main'><Link className='link' to="/apppage">app</Link></button>
+      
+      </div>{/* "mainpage-container" */}
 
-      <div className='top-theme'>
-          <h2 className='theme-selection24'>①この中から</h2>
-          <h2 className='theme-selection32'>感情がイメージしやすいテーマ</h2>
-          <h2 className='theme-selection24'>を選ぼう</h2>
-          
-\          <h2 className='photo-page-main'><Link to="/Photopage">Photo</Link></h2>
-          <h2 className='ui-page-main'><Link to="/uipage">UI</Link></h2>
-          <h2 className='app-page-main'><Link to="/apppage">app</Link></h2>
-
-
-
-          
-          
-
-      </div>
-
-    </div>
 </>
     
   )
