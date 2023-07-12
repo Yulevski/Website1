@@ -12,6 +12,9 @@ import Architectures from './components/Architectures';
 import Nature from './components/Nature';
 import Street from './components/Street';
 import Airplanes from './components/Airplanes';
+import Brutalism from './components/Brutalism';
+import Injapan from './components/Injapan';
+import Initaly from './components/Initaly';
 
 import './App.css';
 
@@ -48,6 +51,9 @@ function App() {
      <Route exact path="/nature" render={() => <Nature/>} />
      <Route exact path="/street" render={() => <Street/>} />
      <Route exact path="/airplanes" render={() => <Airplanes/>} />
+     <Route exact path="/brutalism" render={() => <Brutalism/>} />
+     <Route exact path="/injapan" render={() => <Injapan/>} />
+     <Route exact path="/initaly" render={() => <Initaly/>} />
      {/* <Route exact path="/photopage2" render={() => <Photopage2/>} /> */}
      </Switch>
     
