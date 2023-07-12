@@ -1,5 +1,29 @@
+.wrapper-site-header_wrapper{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  
+}
+.title-app{
+  /* margin-left: 1%; */
+  /* margin-right: 50%; */
+ font-family: Roboto;
+ width: 100%;
+}
+.nav_wrapper {
+  display: flex;
+  list-style: none; 
+  margin-right: 0%; 
+  gap: 6%;
+  width: 100%;
+  flex-basis: 20%;
+}
+
+
+
 .mainpage-container {
-   background-image: url('pictures/IMGP5181.jpg');
+   /* background-image: url('pictures/IMGP5181.jpg'); */
+  background-color: aliceblue;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; 

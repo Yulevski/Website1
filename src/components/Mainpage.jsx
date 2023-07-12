@@ -1,5 +1,5 @@
 import React from 'react';
-import {  Link } from 'react-router-dom';
+import {  Link , NavLink} from 'react-router-dom';
 import './styles/mainpage.css';
 
 
@@ -8,8 +8,20 @@ function Mainpage() {
 
   return( 
     <>
+     <header class="site-header">
+      <div class="wrapper-site-header_wrapper">
+      <h1 className='title-app'>Yu's private works 18+</h1>
+          <ul class="nav_wrapper">
+            <li class="nav_item"><NavLink to="/main">Main</NavLink></li>
+            <li class="nav_item"><NavLink to="/main">Main</NavLink></li>
+            <li class="nav_item"><NavLink to="/main">Main</NavLink></li>
+            <li class="nav_item"><NavLink to="/main">Main</NavLink></li>
+            <li class="nav_item"><NavLink to="/main">Main</NavLink></li>
+          </ul>
+      </div>
+    </header>
+    
     <div className="mainpage-container">      
-      <h1 className='title-main'>Yu's private photos 18+</h1>
         <Link className='link' to="/Photopage">
         <button className='photo-page-main'>Photo</button>
         </Link>
