@@ -35,14 +35,14 @@
   justify-content: center;
   display: grid; 
   grid-auto-columns: 1fr; 
-  grid-template-columns: 1fr 1fr 1fr; 
-  grid-template-rows: 0.4fr 1fr 1.1fr 1.5fr; 
+  grid-template-columns: 1.5fr 1.5fr 1.5fr; 
+  grid-template-rows: 1fr 1fr 1fr; 
   gap: 10px 10px; 
   grid-template-areas: 
     "title-main title-main title-main"
-    "photo-page-main ui-page-main app-page-main"
-    ". . ."
-    ". . ."; 
+    "photo-page-main ui-page-main design-page-main"
+    "illustration-page-main blog-page-main app-page-main"
+    ; 
 }
 .title-main { grid-area: title-main;
 background-color: aliceblue;
@@ -55,33 +55,84 @@ font-weight: 800;
 color: rgb(23, 23, 23);
 }
 
-.photo-page-main { grid-area: photo-page-main;
+.photo-page-main { 
+  grid-area: photo-page-main;
   font-family: Roboto;
+  /* width: calc(240px + 2vmin); */
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+}
+.ui-page-main { 
+  grid-area: ui-page-main;
+  /* width: calc(240px + 2vmin); */
+
+ }
+ .design-page-main {
+   grid-area: design-page-main;
   width: calc(240px + 2vmin);
 
-}
-.ui-page-main { grid-area: ui-page-main;
+
+ }
+ .illustration-page-main { 
+  grid-area: illustration-page-main;
   width: calc(240px + 2vmin);
 
  }
-.app-page-main { grid-area: app-page-main; 
+ .blog-page-main { 
+  grid-area: blog-page-main;
   width: calc(240px + 2vmin);
+
+
+ }
+.app-page-main { 
+  grid-area: app-page-main; 
+  width: calc(240px + 2vmin);
+
 }
 
-.photo-page-main:hover {
+/* .photo-page-main:hover {
   background: #67c5ff;
   color: white;
-}
+} */
 .ui-page-main:hover {
 background: #67c5ff;
 color: white;
-}.app-page-main:hover {
-background: #67c5ff;
-color: white;
 }
+.design-page-main:hover { 
+  background: #67c5ff;
+color: white;
+
+ }
+ .illustration-page-main:hover {
+  background: #67c5ff;
+color: white;
+ }
+ .blog-page-main:hover { 
+  background: #67c5ff;
+color: white;
+
+ }
+ .app-page-main:hover {
+  background: #67c5ff;
+  color: white;
+  }
+  .ui-page-main,.design-page-main,.illustration-page-main,.blog-page-main,.app-page-main{
+  width: 100%;
+  height: 100%;
+  }
+  .button-main{
+    width: 100%;
+    height: 100%;
+    font-size: calc(40px + 2vmin);
+  }
+  .button-title-main{
+    font-size: small;
+  }
 
 
-.photo-page-main,.ui-page-main,.app-page-main{
+
+.ui-page-main,.design-page-main,.illustration-page-main,.blog-page-main,.app-page-main{
   font-family: Roboto;
   font-size: calc(40px + 2vmin);
   font-style: normal;
@@ -97,12 +148,16 @@ color: white;
 
 }
 
-link:hover{
+/* link:hover{
     text-decoration: underline;
-}
+} */
 .link{
   text-decoration: none;  
   margin-right:auto;
   margin-left:auto;
+  height: 100%;
+  width: 100%;
+
+
 
 }
