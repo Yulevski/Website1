@@ -1,0 +1,16 @@
+.brutalist-photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .photo-container {
+    width: calc(25% - 10px); /* Each container occupies 25% width with a 10px gap */
+    height: auto; /* Adjust as needed */
+  }
+  
+  .photo {
+    width: 100%; /* Fill the entire container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
