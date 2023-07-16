@@ -58,9 +58,9 @@ function UIpage() {
     </header>
 
     <div className="brutalist-photos">
-    <div className="brutalist-photos">
-  <div className="photo-container">
-    <img src={image1} alt="belgrade1" className="photo" />
+
+  {/* <div className="photo-container">
+     <img src={image1} alt="belgrade1" className="photo" />
   </div>
   <div className="photo-container">
     <img src={image2} alt="belgrade2" className="photo" />
@@ -124,9 +124,29 @@ function UIpage() {
   </div>
   <div className="photo-container">
     <img src={image22} alt="belgrade22" className="photo" />
-  </div>
-</div>
-
+  </div>  */}
+  <img src={image1} alt="belgrade1" className="photo" />
+    <img src={image2} alt="belgrade2" className="photo" />
+    <img src={image3} alt="belgrade3" className="photo" />
+    <img src={image4} alt="belgrade4" className="photo" />
+    <img src={image5} alt="belgrade5" className="photo" />
+    <img src={image6} alt="belgrade6" className="photo" />
+    <img src={image7} alt="belgrade7" className="photo" />
+    <img src={image8} alt="belgrade8" className="photo" />
+    <img src={image9} alt="belgrade9" className="photo" />
+    <img src={image10} alt="belgrade10" className="photo" />
+    <img src={image11} alt="belgrade11" className="photo" />
+    <img src={image12} alt="belgrade12" className="photo" />
+    <img src={image13} alt="belgrade13" className="photo" />
+    <img src={image14} alt="belgrade14" className="photo" />
+    <img src={image15} alt="belgrade15" className="photo" />
+    <img src={image16} alt="belgrade16" className="photo" />
+    <img src={image17} alt="belgrade17" className="photo" />
+    <img src={image18} alt="belgrade18" className="photo" />
+    <img src={image19} alt="belgrade19" className="photo" />
+    <img src={image20} alt="belgrade20" className="photo" />
+    <img src={image21} alt="belgrade21" className="photo" />
+    <img src={image22} alt="belgrade22" className="photo" /> 
 
 
       {/* Add more <img> elements for additional photos */}
